@@ -28,6 +28,13 @@ public class StringMethod {
 		
 //		System.out.println(split);
 	}
+	public void patternStar() {
+		
+		for(int i=1; i<6; i++) {
+			System.out.println(i);
+		}
+
+	}
 	
 	private static void listPrac() {
 		

@@ -29,9 +29,16 @@ public class StringMethod {
 //		System.out.println(split);
 	}
 	public void patternStar() {
+		int num=6;
 		
-		for(int i=1; i<6; i++) {
-			System.out.println(i);
+		for(int i=1; i<num; i++) {
+			for(int j=num; j>0; j--) {
+				System.out.print(" ");
+			}
+			for(int k=1; k>=i;k++) {
+				System.out.print("* ");
+			}
+			System.out.println("");
 		}
 
 	}
